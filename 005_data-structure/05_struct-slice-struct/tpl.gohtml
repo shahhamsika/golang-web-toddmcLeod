@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+</head>
+<body>
+<ul>
+    {{range .Sages}}
+    <li> {{.Name}} --> {{.Motto}}</li>
+    {{end}}
+</ul>
+<ul>
+    {{range .Cars}}
+    <li> {{.Model}} --> {{.Milage}}</li>
+    {{end}}
+</ul>
+</body>
+</html>
